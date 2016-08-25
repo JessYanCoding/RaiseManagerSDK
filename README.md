@@ -1,4 +1,4 @@
-# RaiseManagerSDK
+# RaiseManagerSDK 
 智播项目,教育类应用场景之举手发言,依赖于[直播SDK](https://github.com/Jungle68/ZBSmartLiveSDK/wiki/智播云通讯文档说明#2-直播间)
 ## 举手发言需求 
 
