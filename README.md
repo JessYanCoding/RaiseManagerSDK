@@ -53,7 +53,7 @@
 ![举手发言回调说明](举手发言回调说明.png)
 
 #### 代码示例:
-    
+     
      RaiseManager.Builder builder = (RaiseManager.Builder) EducationSdk.getInstance().getManger(EducationSdk.MANAGER_RAISE);
         mRaiseManager = builder
                 .with(getActivity())
