@@ -72,7 +72,7 @@
 * 因为录音相关逻辑涉及到上传和下载的功能，`AudioManager`专注于录音处理，由于网络框架每个项目都有自己独有的一套，且庞大，所以调用者通过`HttpHelper`接口，自己实现上传下载的功能,这样保证了扩展又保证了**SDK**的大小.
 * `AudioInfo`表示录音的消息，里面封装有基本的信息，在`RaiseManager`回调中经常出现，为了扩展，`AudioManager`可以传入一个继承于`AudioInfo`的范型，这样就可以在回调中收到自己定义的录音消息对象，可以储存一些自己定义的信息.
 
-####AudioInfo structure
+####AudioInfo structure 
 
 Field       | Description
 :----------:|:-------------:
