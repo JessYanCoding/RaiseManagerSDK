@@ -84,4 +84,4 @@ recordTime  | 录制的时间单位秒
 ctime       | 创建的时间单位毫秒，作为此录音的唯一码
 status      | 0.正常状态 1.下载中 2.播放失败 3.播放中 4.播放暂停
 
-#### ★详情请查看[`AudioManager`文档](https://github.com/JessYanCoding/AudioManagerSDK)               
+#### ★详情请查看[`AudioManager`文档](https://github.com/JessYanCoding/AudioManagerSDK)                
