@@ -53,7 +53,7 @@
 ![举手发言回调说明](举手发言回调说明.png)
 
 #### 代码示例:
-     
+``` java     
      RaiseManager.Builder builder = (RaiseManager.Builder) EducationSdk.getInstance().getManger(EducationSdk.MANAGER_RAISE);
         mRaiseManager = builder
                 .with(getActivity())
@@ -64,6 +64,7 @@
                 .addAudioStatuListener(mAudioStatuListener)
                 .addPresenterLisenter(mPresenterLisenter)
                 .build();
+``` 
 
 ### AudioManager（辅助）
 #### Dev tips
